@@ -13,10 +13,11 @@ The tests will run in parallel on Firefox and Chrome
 
 3.	Create a classpath that points to selenium and testing jar files. These files are located in the lib folder.             (WikiaHomework > lib)
 
-4.	Run these commands to set the classpath for jars in the lib folder and binary classes in the bin folder and do an        echo to check the path has been set.
+4.	Run these commands to set the classpath for jars in the lib folder and binary classes in the bin folder and do        an echo to check the path has been set.
 
-
-      set classpath=%ProjectPath%\bin;%ProjectPath%\Lib\*
+      note: Please remove the space beetween \ and * at the end in this command. (It doesn't let me edit it here)
+      
+      set classpath=%ProjectPath%\bin;%ProjectPath%\Lib\ *
     
       echo %classpath%
 
