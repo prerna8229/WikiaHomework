@@ -2,6 +2,8 @@
 
 Instructions for running the tests from the command line (Windows)
 
+The tests will run in parallel on Firefox and Chrome
+
 1.	Download/clone the project.
 2.	Navigate to directory of the project. Create and set a path variable named “ProjectPath” by entering following           command. Do echo command after that to check if the value that we just set is right.
 
@@ -13,8 +15,8 @@ Instructions for running the tests from the command line (Windows)
 
 4.	Run these commands to set the classpath for jars in the lib folder and binary classes in the bin folder and do an        echo to check the path has been set.
 
-      set classpath=%ProjectPath%\bin;%ProjectPath%\Lib\*
-      
+      set classpath=%ProjectPath%\bin;%ProjectPath%\Lib\ *
+    
       echo %classpath%
 
 5.	Now execute the java command for TestNG as shown below.
