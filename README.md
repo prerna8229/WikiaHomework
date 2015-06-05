@@ -15,7 +15,8 @@ The tests will run in parallel on Firefox and Chrome
 
 4.	Run these commands to set the classpath for jars in the lib folder and binary classes in the bin folder and do an        echo to check the path has been set.
 
-      set classpath=%ProjectPath%\bin;%ProjectPath%\Lib\ *
+
+      set classpath=%ProjectPath%\bin;%ProjectPath%\Lib\*
     
       echo %classpath%
 
